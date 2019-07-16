@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; -webkit-text-stroke: #000000; min-height: 16.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;HTML&gt;</span></p>
+<p class="p1"><span class="s1">&lt;HEAD&gt;</span></p>
+<p class="p1"><span class="s1">&lt;TITLE&gt;Exemple de livre d'or&lt;/TITLE&gt;</span></p>
+<p class="p1"><span class="s1">&lt;script language="JavaScript"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>function initialisation()<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>{ var LaDate = new Date();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>document.form1.PLATEFORME.value =<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">     </span>navigator.appName + " " + navigator.appVersion;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>document.form1.DATE.value = String(LaDate).substring(19,0)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>document.form1.NOM_DE_LA_PAGE.value = document.title;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>}</span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/HEAD&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;BODY onLoad="initialisation()"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;H2&gt;Merci de nous dire ce que vous pensez de cette<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>présentation&lt;/H2&gt;</span></p>
+<p class="p1"><span class="s1">&lt;FORM NAME="form1"<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>METHOD=post<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>ACTION="mailto:moi@chez.moi?SUBJECT=Ma statistique"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>ENCTYPE="text/plain" &gt;</span></p>
+<p class="p1"><span class="s1">&lt;TABLE&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>&lt;TR&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;TD&gt;Comment avez-vous découvert cette présentation ?</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;TD&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;SELECT SIZE=3 NAME=comment&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;OPTION&gt;Les news de Usenet&lt;/OPTION&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;OPTION&gt;Une liste de diffusion&lt;/OPTION&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;OPTION&gt;Le bouche à oreille&lt;/OPTION&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;OPTION&gt;Une revue&lt;/OPTION&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;OPTION&gt;Par hasard&lt;/OPTION&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;/SELECT&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>&lt;TR&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;TD&gt;Qu'en pensez-vous ?</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;TD&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;INPUT TYPE=radio NAME=qualite VALUE=TB&gt; Passionnante</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;BR&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;INPUT TYPE=radio NAME=qualite VALUE=B&gt; Intéressante</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;BR&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;INPUT TYPE=radio NAME=qualite VALUE=P&gt; Acceptable</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;BR&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;INPUT TYPE=radio NAME=qualite VALUE=M&gt; Médiocre</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;BR&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>&lt;INPUT TYPE=radio NAME=qualite VALUE=TM&gt; Inintéressante</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>&lt;TR&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;TD COLSPAN=2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>Vos commentaires :</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;TEXTAREA COLS=40 ROWS=10 NAME=opinion&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/TEXTAREA&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>&lt;TR&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;TD ALIGN=center&gt;&lt;INPUT TYPE=submit NAME="SUBMITTER"<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>VALUE="J'ai fini, envoyez"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;TD ALIGN=center&gt;&lt;INPUT TYPE=reset VALUE="Je veux recommencer"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/TABLE&gt;</span></p>
+<p class="p1"><span class="s1">*</span></p>
+<p class="p1"><span class="s1">&lt;INPUT type="hidden" name="DATE" value=""&gt;</span></p>
+<p class="p1"><span class="s1">&lt;INPUT type="hidden" name="NOM_DE_LA_PAGE" value=""&gt;</span></p>
+<p class="p1"><span class="s1">&lt;INPUT type="hidden" name="PLATEFORME" value=""&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/FORM&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/BODY&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/HTML&gt;</span></p>
+</body>
+</html>
